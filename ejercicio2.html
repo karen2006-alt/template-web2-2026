@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos para Teléfono y PC</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-" crossorigin="anonymous">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+        <img src="logo.png" alt="Logo" style="height: 50px;">
+        <button style="padding: 8px 16px; font-size: 1rem;">Click Me</button>
+    </header>
+    
+    <main class="container my-4">
+        <div class="d-flex flex-column align-items-center">
+            <!-- Card 1 -->
+            <div class="card mb-4" style="width: 20rem;">
+                <img src="telefono.jpg" class="card-img-top" alt="Teléfono Inteligente">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Teléfono Inteligente</h5>
+                    <p class="card-text">Último modelo con cámara de alta resolución y batería duradera.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Comprar ahora</a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card mb-4" style="width: 20rem;">
+                <img src="pc.jpg" class="card-img-top" alt="Computadora de Escritorio">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Computadora de Escritorio</h5>
+                    <p class="card-text">Potente PC para gaming y trabajo con procesador de última generación.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Comprar ahora</a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card mb-4" style="width: 20rem;">
+                <img src="laptop.jpg" class="card-img-top" alt="Laptop">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Laptop</h5>
+                    <p class="card-text">Portátil ligera y eficiente para movilidad y productividad.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Categories section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Categorías</h2>
+        <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="cat-telefono.jpg" class="card-img-top" alt="Teléfonos">
+                    <div class="card-body text-center">
+                        <h6 class="card-title mb-0">Teléfonos</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="cat-pc.jpg" class="card-img-top" alt="Computadoras">
+                    <div class="card-body text-center">
+                        <h6 class="card-title mb-0">Computadoras</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="cat-accesorios.jpg" class="card-img-top" alt="Accesorios">
+                    <div class="card-body text-center">
+                        <h6 class="card-title mb-0">Accesorios</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="cat-gaming.jpg" class="card-img-top" alt="Gaming">
+                    <div class="card-body text-center">
+                        <h6 class="card-title mb-0">Gaming</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="cat-software.jpg" class="card-img-top" alt="Software">
+                    <div class="card-body text-center">
+                        <h6 class="card-title mb-0">Software</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="cat-reparaciones.jpg" class="card-img-top" alt="Reparaciones">
+                    <div class="card-body text-center">
+                        <h6 class="card-title mb-0">Reparaciones</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
